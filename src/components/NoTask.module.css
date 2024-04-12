@@ -1,0 +1,18 @@
+.styleDivNoTask {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 4rem;
+    line-height: 0.2px;
+    font-size: 6x;
+    color: var(--gray-300);
+    font-weight: 600;
+}
+.styleDivNoTask img {
+    margin-bottom: 1rem;
+    width: 4rem;
+    height: 4rem;
+}
+
+.styleDivNoTask span {
+}

@@ -1,0 +1,38 @@
+.divFromTask {
+    border-radius: 8px;
+    align-items: center;
+    background: var(--gray-400);
+    display: flex;
+    justify-content: space-between;
+    min-height: 5.5rem;
+    margin-bottom: 1rem;
+    padding: 0 0.6rem;
+}
+
+.textoTask {
+    color: var(--gray-100);
+    font-size: 1.2rem;
+    flex-grow: 6;
+    padding-left: 0.5rem;
+}
+
+.buttonDelete {
+    background: transparent;
+    color: var(--gray-300);
+    border: transparent;
+    transition: color 0.1s;
+}
+
+.buttonDelete:hover {
+    color: var(--danger);
+}
+
+.inputConfirm:checked ~ .textoTask {
+    color: var(--gray-300);
+    text-decoration: line-through;
+}
+
+.inputConfirm:not(:checked) ~ .textoTask {
+    color: var(--gray-100);
+
+}
